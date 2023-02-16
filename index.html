@@ -4,23 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Inconsolata|Droid+Sans|Poppins">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700:900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./index.css">
     <title>Porfolio</title>
 </head>
 <body>
-    <header>
-            <div class="logo">John Doe</div>
-            <nav class="nav-menu">
-                <ul>
-                    <li><a class="nav-links" href="">Portfolio</a></li>
-                    <li><a class="nav-links" href="">About</a></li>
-                    <li><a class="nav-links" href="">Contact</a></li>
-                    <li><a class="nav-links" href=""><i class="fas fa-envelop"></i></a></li>
+    <header id="header"> 
+            <div class="logo blue-text">Joeveloper</div>
+            <nav class="nav-bar">
+                <ul id="navlink-ul">
+                    <li><a class="nav-links black-text" href="">Portfolio</a></li>
+                    <li><a class="nav-links black-text" href="">About</a></li>
+                    <li><a class="nav-links black-text" href="">Contact</a></li>
+                    <li><a class="nav-links black-text" href=""><i class="fas fa-envelop"></i></a></li>
                 </ul>
         </nav>
     </header>
+
+    <main id="portfolio-main">
+        <div id="div">
+            <div class="main-intro">
+                <div id="maintext-body">
+                    <h1 class="intro-heading .black-text">I'm Joeveloper</h1>
+                    <h1 class="intro-heading">Glad to see you!</h1>
+                    <p id="intro-para" class="black-text">I'm a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, 
+                    don’t hesitate to contact me.</p>
+                </div>
+            </div>
+            <div id="social-media">
+                <p id="social-para" class="social-blue">LET'S CONNECT</p>
+                    <ul>
+                        <li><a class="social-tag" href="https://github.com/joeveoper"><img src="./images/twitter.png"></a></li>
+                        <li><a class="social-tag" href="https://linkedin.com/yinka-olatunji/"><img src="./images/vector.png"></a></li>
+                        <li><a class="social-tag" href="https://twitter.com/joeveoper"><img src="./images/medium.png"></a></li>
+                        <li><a class="social-tag" href="https://medium.com/joeveoper"><img src="./images/github.png"></a></li>
+                        <li><a class="social-tag" href="https://medium.com/joeveoper"><img src="./images/angellist.png"></a></li>
+                    </ul>
+            </div>
+        </div>
+        
+    </main>
 </body>
 </html>
