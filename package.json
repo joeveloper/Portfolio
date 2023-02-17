@@ -6,6 +6,7 @@
     "stylelint-scss": "^3.21.0"
   },
   "dependencies": {
+    "postcss-cli": "^10.1.0",
     "postcss-safe-parser": "^6.0.0"
   }
 }
