@@ -4,17 +4,25 @@
   margin: 0;
 }
 
-.black-text { color: #000; }
+.black-text {
+  color: #000;
+}
 
-.blue-text { color: #6070ff; }
+.blue-text {
+  color: #6070ff;
+}
 
-.social-blue { color: #7f8cff; }
+.social-blue {
+  color: #7f8cff;
+}
 
-a { text-decoration: none; }
+a {
+  text-decoration: none;
+}
 
 body {
   background-color: #eee;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #header {
@@ -123,12 +131,10 @@ li {
   grid-template-columns: repeat(2, 1fr);
   background-color: #fff;
   padding: 1em;
-  gap: 10px
+  gap: 10px;
 }
 
 .card {
-
-
 }
 
 .card img {
@@ -139,33 +145,11 @@ li {
   padding: 1em 2em;
 }
 
-.textside h2 {
-
-}
-
 .textside ul {
   display: flex;
   gap: 7px;
   align-items: center;
 }
-
-/* .card-ul:nth-child() {
-  font-weight: bold;
-  color: green;
-} */
-
-
-
-.skills {
-
-}
-
-.card-texts p {
-  
-}
-
-
-
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
@@ -275,7 +259,7 @@ li {
     background-color: #fff;
     padding: 1em;
     gap: 12px;
-    border: 1px solid #DFE1E6;
+    border: 1px solid #dfe1e6;
     border-radius: 16px;
     box-shadow: #000;
   }
@@ -298,7 +282,7 @@ li {
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
-}
+  }
 
   .textside {
     display: flex;
@@ -317,7 +301,7 @@ li {
     text-align: center;
   }
 
-  .skills li {  
+  .skills li {
     background-color: #ebebff;
     padding: 7px;
     border-radius: 8px;
@@ -327,7 +311,7 @@ li {
   .see-project {
     font-weight: 500;
     color: #396df2;
-    border: 1px solid ;
+    border: 1px solid;
     border-radius: 10px;
     padding: 7px 20px;
     align-self: flex-start;
@@ -343,7 +327,7 @@ li {
   }
 
   #about p {
-    margin: 10px 0 0 0
+    margin: 10px 0 0 0;
   }
 
   #about h3 {
@@ -371,7 +355,7 @@ li {
     font-weight: bold;
     font-size: 15px;
     line-height: 20px;
-    background: #F7F7F9;
+    background: #f7f7f9;
     border-radius: 8px;
   }
 }
