@@ -275,12 +275,6 @@ li {
     margin-bottom: 5px;
   }
 
-  .card-ul li:nth-child(1) {
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 16px;
-  }
-
   .textside {
     display: flex;
     flex-direction: column;
@@ -354,5 +348,11 @@ li {
     line-height: 20px;
     background: #f7f7f9;
     border-radius: 8px;
+  }
+
+  .card-ul li:nth-child(1) {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
   }
 }
