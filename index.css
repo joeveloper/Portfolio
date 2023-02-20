@@ -12,12 +12,16 @@
   color: #6070ff;
 }
 
-.social-blue {
-  color: #7f8cff;
-}
-
 a {
   text-decoration: none;
+}
+
+.blue-text a {
+  color: #6070ff;
+}
+
+.social-blue {
+  color: #7f8cff;
 }
 
 body {
@@ -218,7 +222,7 @@ li {
   #intro-para {
     width: auto;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 16px;
     line-height: 25px;
     margin-top: 15px;
