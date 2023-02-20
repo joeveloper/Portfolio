@@ -26,12 +26,7 @@ After you're finished please remove all the comments and instructions!
 -->
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Joeveloper's Portfolio</b></h3>
-
+  <h3><b>JOEVELOPER's Portfolio</b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -60,7 +55,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello-Microverse] <a name="about-project"></a>
+# 📖 JOEVELOPER's Portfolio <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
@@ -98,9 +93,9 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 
-- **[Heading_tag_h1]**
-- **[CSS_Styling]**
-- **[Linters_file_to_test_code_format]**
+- **Intro Section**
+- **Projects Section**
+- **Contact Section**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
