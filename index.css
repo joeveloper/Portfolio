@@ -370,7 +370,7 @@ li {
     text-align: center;
     padding: 30px 20px 10px 20px;
     font-weight: 700;
-    font-size: 52px;
+    font-size: 42px;
     line-height: 52px;
   }
 
@@ -444,8 +444,10 @@ li {
     background-color: #6070ff;
     padding: 50px 24px 30px 24px;
     background-image: url("./images/main-bg.png");
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
     background-repeat: no-repeat;
-    background-size: 100%;
     border-radius: 100px 0 0 0;
     display: flex;
     width: 100%;
