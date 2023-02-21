@@ -356,6 +356,24 @@ li {
     gap: 20px;
   }
 
+  .contact-wrap p {
+    text-align: center;
+    color: #ebebff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 10px 20px;
+  }
+
+  .contact-wrap h3 {
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px 10px 20px;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 52px;
+  }
+
   #about p {
     margin: 10px 0 0 0;
     color: #344563;
@@ -441,24 +459,6 @@ li {
     gap: 20px;
   }
 
-  .contact-wrap h3 {
-    color: #fff;
-    text-align: center;
-    padding: 30px 20px 10px 20px;
-    font-weight: 700;
-    font-size: 52px;
-    line-height: 52px;
-  }
-
-  .contact-wrap p {
-    text-align: center;
-    color: #ebebff;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    padding: 10px 20px;
-  }
-
   .contact-wrap form {
     display: flex;
     flex-direction: column;
@@ -471,17 +471,15 @@ li {
     border: none;
     font-weight: 400;
     font-size: 17px;
-    line-height: 20px
+    line-height: 20px;
   }
 
   .input::placeholder {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-
-
-color: #B3BAC5;
+    color: #b3bac5;
   }
 
   hr {
