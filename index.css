@@ -442,15 +442,13 @@ li {
 
   #contact-me {
     background-color: #6070ff;
-    padding: 50px 24px 30px 24px;
-    background-image: url("./images/main-bg.png");
-    background-size: cover;
-    height: 100%;
+    padding: 120px 20px 30px 20px;
+    background-image: url("./images/mobile-contact-bg.png");
+    background-size: 100%;
     overflow: hidden;
     background-repeat: no-repeat;
     border-radius: 100px 0 0 0;
     display: flex;
-    width: 100%;
     margin: 0;
   }
 
