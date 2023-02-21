@@ -55,11 +55,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 JOEVELOPER's Portfolio <a name="about-project"></a>
+# 📖 JOEVELOPER's Portfolio <a name="Portfolio"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[Hello-Microverse]** This document is my professional portfolio, which showcases my skills by providing links to my Projects, and also give opportunity to connect to me via my socials.
+**[Contact-section]** This document is my professional portfolio, which showcases my skills by providing links to my Projects, and also give opportunity to connect to me via my socials.
 
 ## 🛠 Built With <a name="built-with">HTML & CSS</a>
 
@@ -93,9 +93,9 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 
-- **Intro Section**
-- **Projects Section**
-- **Contact Section**
+- **Desktop version**
+- **Accessibilty**
+- 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
