@@ -1,9 +1,8 @@
-
-  * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
 .black-text {
   color: #000;
@@ -155,7 +154,7 @@ li {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #091E42;
+  color: #091e42;
 }
 
 .textside ul {
@@ -168,12 +167,12 @@ li {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #344563
+  color: #344563;
 }
 
 .card-ul li:nth-child(1) {
   font-weight: 700;
-  
+
   font-size: 18px;
   line-height: 24px;
   color: #344563;
@@ -183,7 +182,7 @@ li {
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
-  color: #6B778C;
+  color: #6b778c;
 }
 
 .skills {
@@ -265,7 +264,7 @@ li {
   flex-direction: column;
   align-items: start;
   padding: 20px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   width: 140px;
 }
@@ -287,11 +286,11 @@ li {
 }
 
 #contact-me {
-  background-color:#fff;
+  background-color: #fff;
 }
 
 .contact-wrap {
-  background-color:#6070FF;
+  background-color: #6070ff;
   padding: 200px;
   background-image: url("./images/about-bg-desktop.png");
   background-repeat: no-repeat;
@@ -301,9 +300,57 @@ li {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  gap: 20px;
 }
 
+.contact-wrap form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
+.contact-wrap p {
+  color: #ebebff;
+  width: 60%;
+  text-align: center;
+}
+
+.contact-wrap h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.input {
+  background: #ffffff;
+  border: 1px solid #cfd8dc;
+  padding: 20px 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+}
+
+.input::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+}
+
+.get-button {
+  margin: auto;
+  background-color: #fff;
+  color: #396df2;
+  border: 1px solid #396df2;
+}
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
@@ -598,7 +645,7 @@ li {
 
   #contact-me {
     background-color: #6070ff;
-    padding: 120px 20px 30px 20px;
+    padding: 20px 20px;
     background-image: url("./images/mobile-contact-bg.png");
     background-size: 100%;
     overflow: hidden;
@@ -612,13 +659,20 @@ li {
     display: flex;
     flex-direction: column;
     height: 100%;
-    gap: 20px;
+    width: 100%;
+    padding: 0;
+    gap: 30px;
+  }
+
+  .contact-wrap p {
+    width: 70%;
   }
 
   .contact-wrap form {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    /* width: 100%; */
   }
 
   .input {
@@ -628,6 +682,7 @@ li {
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
+    /* width: 100%; */
   }
 
   .input::placeholder {
@@ -642,5 +697,9 @@ li {
     border: 3px solid #0d151e;
     width: 40%;
     margin: auto;
+  }
+
+  .get-button {
+    margin: 0;
   }
 }
