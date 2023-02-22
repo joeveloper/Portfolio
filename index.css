@@ -264,6 +264,12 @@ li {
   height: 30px;
 }
 
+.under {
+  margin-top: 30px;
+  padding-bottom: 20px;
+  border-bottom: 0.2px solid #dfe1e6;
+}
+
 .about-skills li {
   display: flex;
   flex-direction: column;
@@ -316,7 +322,7 @@ li {
 
 .contact-wrap p {
   color: #ebebff;
-  width: 60%;
+  width: 40%;
   text-align: center;
 }
 
