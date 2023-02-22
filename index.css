@@ -170,12 +170,24 @@ li {
   color: #344563;
 }
 
-.card-ul li:nth-child(1) {
-  font-weight: 700;
+.skills li {
+  background-color: #ebebff;
+  padding: 6px 5px;
+  border-radius: 8px;
+  font-size: 15px;
+  color: #396df2;
+  font-weight: 600;
+  line-height: 16px;
+}
 
-  font-size: 18px;
-  line-height: 24px;
-  color: #344563;
+.about-skills li {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  width: 140px;
 }
 
 .card-ul li {
@@ -185,19 +197,16 @@ li {
   color: #6b778c;
 }
 
+.card-ul li:nth-child(1) {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #344563;
+}
+
 .skills {
   text-align: center;
   display: flex;
-}
-
-.skills li {
-  background-color: #ebebff;
-  padding: 6px 5px;
-  border-radius: 8px;
-  font-size: 15px;
-  color: #396df2;
-  font-weight: 600;
-  line-height: 16px;
 }
 
 .see-project {
@@ -233,11 +242,6 @@ li {
 }
 
 #about {
-  /* display: flex;
-  padding: 50px 50px 20px 20px;
-  background-color: #fff;
-  border-radius: 0 50px 0 0;
-  gap: 20px; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background-color: #fff;
@@ -255,7 +259,6 @@ li {
 
 .down {
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-between;
 }
 
@@ -270,16 +273,6 @@ li {
   border-bottom: 0.2px solid #dfe1e6;
 }
 
-.about-skills li {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  padding: 20px;
-  background: #f7f7f9;
-  border-radius: 8px;
-  width: 140px;
-}
-
 .about-skills img {
   width: 50px;
   height: 50px;
@@ -289,11 +282,6 @@ li {
   background-color: #fff;
   color: #396df2;
   border: 1px solid #396df2;
-}
-
-.social-media {
-  display: flex;
-  gap: 20px;
 }
 
 #contact-me {
@@ -333,15 +321,14 @@ li {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 .input {
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #cfd8dc;
   padding: 20px 10px;
   border-radius: 5px;
-  border: none;
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
@@ -575,6 +562,7 @@ li {
     font-size: 20px;
     line-height: 28px;
     padding: 10px 20px;
+    width: 70%;
   }
 
   .contact-wrap h3 {
@@ -675,15 +663,10 @@ li {
     gap: 30px;
   }
 
-  .contact-wrap p {
-    width: 70%;
-  }
-
   .contact-wrap form {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /* width: 100%; */
   }
 
   .input {
@@ -693,7 +676,6 @@ li {
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
-    /* width: 100%; */
   }
 
   .input::placeholder {
