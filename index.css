@@ -259,6 +259,11 @@ li {
   justify-content: space-between;
 }
 
+.down img {
+  width: 30px;
+  height: 30px;
+}
+
 .about-skills li {
   display: flex;
   flex-direction: column;
