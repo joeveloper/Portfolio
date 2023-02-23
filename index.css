@@ -140,6 +140,13 @@ li {
 }
 
 .card img {
+  width: 90%;
+  transition-property: width;
+  transition-duration: 1s;
+  transition-delay: 1s;
+}
+
+.card img:hover {
   width: 100%;
 }
 
