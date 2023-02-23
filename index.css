@@ -140,14 +140,14 @@ li {
 }
 
 .card img {
-  width: 90%;
-  transition-property: width;
+  padding: 10px;
+  width: 100%;
+  transition-property: padding;
   transition-duration: 1s;
-  transition-delay: 1s;
 }
 
 .card img:hover {
-  width: 100%;
+  padding: 0;
 }
 
 .textside {
