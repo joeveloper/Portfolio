@@ -354,6 +354,8 @@ li {
   font-size: 17px;
   line-height: 20px;
   color: #172b4d;
+  transition-property: border transform;
+  transition-duration: 1s;
 }
 
 .input::placeholder {
@@ -362,6 +364,11 @@ li {
   font-size: 15px;
   line-height: 24px;
   color: #b3bac5;
+}
+
+.input:hover {
+  border: 3px solid #000;
+  transform: translate(10px, 1px);
 }
 
 .get-button {
