@@ -39,9 +39,14 @@ body {
   height: 100px;
 }
 
+@keyframes rotate {
+  to { transform: rotate(360deg); }
+}
+
 .logo {
   font-weight: 700;
   font-size: 18px;
+  animation: rotate 2s linear;
 }
 
 #navlink-ul {
