@@ -30,13 +30,18 @@ body {
 }
 
 #header {
-  position: sticky;
+  /* position: sticky; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.2em 3em;
   background-color: #fff;
   height: 100px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 @keyframes rotate {
