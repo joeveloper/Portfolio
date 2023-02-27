@@ -92,10 +92,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-
 - **Desktop version**
 - **Accessibilty**
-- 
+-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,7 +111,6 @@ After you're finished please remove all the comments and instructions!
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
 
 To get a local copy up and running, follow these steps.
 
@@ -145,34 +143,29 @@ Example commands:
 
 Install this project with:
 
-
 ```sh
   open the index file with your browser either using the path or liveserver
 ```
--
 
+-
 
 ### Run tests
 
 To run tests, run the following command:
 
-
 ```sh
   configure the linters.yml file
 ```
+
 -
 
 ### Deployment
 
-You can deploy this project using:
-
-
-Example:
+This project has been deployed using:
 
 ```sh
 Github pages
 ```
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -188,7 +181,6 @@ Github pages
 - Twitter: [@joeveloper](https://twitter.com/joeveloper)
 - LinkedIn: [Yinka Olatunji](https://www.linkedin.com/in/yinka-olatunji-83aa36b5/)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -199,9 +191,7 @@ Github pages
 
 - The contacts sectiom
 - The about section
-- Links to my works and my socials 
-
-
+- Links to my works and my socials
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -221,7 +211,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-If you like this project, kindly reach  out to me for contributions and recommendations
+If you like this project, kindly reach out to me for contributions and recommendations
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -249,7 +239,6 @@ The author (myself) and also the authors of varous material that were helpful du
 
   - No, this is a frontend only type of project
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
@@ -257,7 +246,5 @@ The author (myself) and also the authors of varous material that were helpful du
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
