@@ -26,7 +26,7 @@ After you're finished please remove all the comments and instructions!
 -->
 
 <div align="center">
-  <h3><b>JOEVELOPER's Portfolio</b></h3>
+  <h3><b><a href="https://joeveloper.github.io/portfolio/">JOEVELOPER's Portfolio</a></b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -105,7 +105,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://github.com/joeveloper/portfolio)
+- [Live Demo Link](https://joeveloper.github.io/portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
