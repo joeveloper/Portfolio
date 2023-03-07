@@ -1,11 +1,11 @@
 function openNav() {
-  document.getElementById('mobile-menu').style.visibility = 'visible';
+  document.getElementById("mobile-menu").classList.add("visible");
 }
 
 function closeNav() {
-  document.getElementById('mobile-menu').style.visibility = 'hidden';
+  document.getElementById("mobile-menu").classList.replace("visible", "hidden");
 }
 
-openNav();
+document.getElementById("burger-parents").addEventListener("click", openNav);
 
-closeNav();
+document.getElementById("closebtn").addEventListener("click", closeNav);
