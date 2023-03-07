@@ -22,22 +22,49 @@
         <div class="logo blue-text"><a href="#">Joeveloper</a></div>
         <nav class="nav-bar">
           <ul id="navlink-ul">
-            <li><a class="nav-links black-text" href="">Portfolio</a></li>
-            <li><a class="nav-links black-text" href="">About</a></li>
-            <li><a class="nav-links black-text" href="">Contact</a></li>
             <li>
-              <a class="nav-links black-text" href=""
+              <a rel="noopener noreferrer" class="nav-links black-text" href=""
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a rel="noopener noreferrer" class="nav-links black-text" href=""
+                >About</a
+              >
+            </li>
+            <li>
+              <a rel="noopener noreferrer" class="nav-links black-text" href=""
+                >Contact</a
+              >
+            </li>
+            <li>
+              <a rel="noopener noreferrer" class="nav-links black-text" href=""
                 ><i class="fas fa-envelop"></i
               ></a>
             </li>
           </ul>
-          <div class="burger-parents">
+          <div onclick="openNav()" id="burger-parents" class="burger-parents">
             <div class="hamburger"></div>
             <div class="hamburger"></div>
             <div class="hamburger"></div>
           </div>
         </nav>
       </header>
+      <div id="mobile-menu" class="mobile-menu">
+        <a
+          rel="noopener noreferrer"
+          href="javascript:void(0)"
+          id="closebtn"
+          class="closebtn"
+          onclick="closeNav()"
+          >&times;</a
+        >
+        <ul>
+          <li><a onclick="closeNav()" rel="noopener noreferrer" href="#portfolio">Portfolio</a></li>
+          <li><a onclick="closeNav()" rel="noopener noreferrer" href="#about">About</a></li>
+          <li><a onclick="closeNav()" rel="noopener noreferrer" href="#contact">Contact</a></li>
+        </ul>
+      </div>
 
       <section id="portfolio-main">
         <div id="div">
@@ -60,6 +87,7 @@
             <ul>
               <li>
                 <a
+                  rel="noopener noreferrer"
                   target="_blank"
                   class="social-tag"
                   href="https://www.github.com/joeveoper"
@@ -68,6 +96,7 @@
               </li>
               <li>
                 <a
+                  rel="noopener noreferrer"
                   target="_blank"
                   class="social-tag"
                   href="https://www.linkedin.com/in/yinka-olatunji-83aa36b5/"
@@ -76,6 +105,7 @@
               </li>
               <li>
                 <a
+                  rel="noopener noreferrer"
                   target="_blank"
                   class="social-tag"
                   href="https://www.twitter.com/joeveoper"
@@ -84,6 +114,7 @@
               </li>
               <li>
                 <a
+                  rel="noopener noreferrer"
                   target="_blank"
                   class="social-tag"
                   href="https://www.medium.com/"
@@ -92,6 +123,7 @@
               </li>
               <li>
                 <a
+                  rel="noopener noreferrer"
                   target="_blank"
                   class="social-tag"
                   href="https://www.angellist.com/"
@@ -103,7 +135,7 @@
         </div>
       </section>
 
-      <section id="projects-section">
+      <section href="#portfolio" id="projects-section">
         <article class="project-articles">
           <div class="card">
             <img alt="image" src="./images/snapshot1.png" />
@@ -127,7 +159,7 @@
               <li>css</li>
               <li>javascript</li>
             </ul>
-            <button class="see-project">See Project</button>
+            <button type="button" class="see-project">See Project</button>
           </div>
         </article>
 
@@ -153,7 +185,7 @@
               <li>css</li>
               <li>javascript</li>
             </ul>
-            <button class="see-project">See Project</button>
+            <button type="button" class="see-project">See Project</button>
           </div>
           <div class="card">
             <img alt="image" src="./images/snapshot2.png" />
@@ -184,7 +216,7 @@
               <li>css</li>
               <li>javascript</li>
             </ul>
-            <button class="see-project">See Project</button>
+            <button type="button" class="see-project">See Project</button>
           </div>
         </article>
 
@@ -209,7 +241,7 @@
               <li>css</li>
               <li>javascript</li>
             </ul>
-            <button class="see-project">See Project</button>
+            <button type="button" class="see-project">See Project</button>
           </div>
           <div class="card">
             <img alt="image" src="./images/snapshot4.png" />
@@ -217,8 +249,8 @@
         </article>
       </section>
 
-      <section id="about">
-          <div class="desktop-about textside">
+      <section href="#about" id="about">
+        <div class="desktop-about textside">
           <h2>About<br />Myself</h2>
           <p>
             Hello I’m a software developer! I can help you build a product ,
@@ -227,10 +259,16 @@
             hestiate to contact me.
           </p>
           <div class="social-media about-social">
-            <a href="#" class="social-para social-blue">LET'S CONNECT</a>
+            <a
+              rel="noopener noreferrer"
+              href="#"
+              class="social-para social-blue"
+              >LET'S CONNECT</a
+            >
             <ul>
               <li>
                 <a
+                  rel="noopener noreferrer"
                   target="_blank"
                   class="social-tag"
                   href="https://www.github.com/joeveoper"
@@ -239,6 +277,7 @@
               </li>
               <li>
                 <a
+                  rel="noopener noreferrer"
                   target="_blank"
                   class="social-tag"
                   href="https://www.linkedin.com/in/yinka-olatunji-83aa36b5/"
@@ -247,6 +286,7 @@
               </li>
               <li>
                 <a
+                  rel="noopener noreferrer"
                   target="_blank"
                   class="social-tag"
                   href="https://www.twitter.com/joeveoper"
@@ -255,6 +295,7 @@
               </li>
               <li>
                 <a
+                  rel="noopener noreferrer"
                   target="_blank"
                   class="social-tag"
                   href="https://www.medium.com/"
@@ -263,6 +304,7 @@
               </li>
               <li>
                 <a
+                  rel="noopener noreferrer"
                   target="_blank"
                   class="social-tag"
                   href="https://www.angellist.com/"
@@ -270,7 +312,9 @@
                 /></a>
               </li>
             </ul>
-            <button class="see-project about-button">Get My Resume</button>
+            <button type="button" class="see-project about-button">
+              Get My Resume
+            </button>
           </div>
         </div>
         <div class="textside about-lang">
@@ -282,11 +326,12 @@
             <li><img alt="image" src="./images/html.png" /> HTML</li>
             <li><img alt="image" src="./images/css.png" /> CSS</li>
           </ul>
-          <h3 class="down under">Frameworks<span class="greycol"> > </span></h3>
-          <h3 class="down under">Skills<span class="greycol"> > </span></h3>
+          <h3 class="down under">Frameworks<span class="greycol"><img alt="image" src="./images/right.png" /></span></h3>
+          <h3 class="down under">Skills<span class="greycol"><img alt="image" src="./images/right.png" /></span></h3>
         </div>
       </section>
-      <section id="contact-me">
+
+      <section href="#contact" id="contact-me">
         <div class="contact-wrap">
           <h3>Contact Me</h3>
           <p>
@@ -320,12 +365,15 @@
               maxlength="500"
               required
             ></textarea>
-            <button type="submit" class="see-project get-button">Get In Touch</button>
+            <button type="submit" class="see-project get-button">
+              Get In Touch
+            </button>
           </form>
           <hr />
         </div>
       </section>
     </div>
+
+    <script src="./index.js"></script>
   </body>
 </html>
-`
