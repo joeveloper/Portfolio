@@ -793,6 +793,7 @@ li {
   .closebtn:hover {
     color: #000;
   }
+
   .hidden {
     visibility: hidden;
   }
