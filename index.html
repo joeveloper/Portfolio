@@ -31,13 +31,27 @@
               ></a>
             </li>
           </ul>
-          <div class="burger-parents">
+          <div onclick="openNav()" class="burger-parents">
             <div class="hamburger"></div>
             <div class="hamburger"></div>
             <div class="hamburger"></div>
           </div>
         </nav>
       </header>
+      <div id="mobile-menu" class="mobile-menu">
+        <a
+          href="javascript:void(0)"
+          id="closebtn"
+          class="closebtn"
+          onclick="closeNav()"
+          >&times;</a
+        >
+        <ul>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
 
       <section id="portfolio-main">
         <div id="div">
@@ -103,7 +117,7 @@
         </div>
       </section>
 
-      <section id="projects-section">
+      <section href="#portfolio" id="projects-section">
         <article class="project-articles">
           <div class="card">
             <img alt="image" src="./images/snapshot1.png" />
@@ -217,8 +231,8 @@
         </article>
       </section>
 
-      <section id="about">
-          <div class="desktop-about textside">
+      <section href="#about" id="about">
+        <div class="desktop-about textside">
           <h2>About<br />Myself</h2>
           <p>
             Hello I’m a software developer! I can help you build a product ,
@@ -286,7 +300,8 @@
           <h3 class="down under">Skills<span class="greycol"> > </span></h3>
         </div>
       </section>
-      <section id="contact-me">
+
+      <section href="#contact" id="contact-me">
         <div class="contact-wrap">
           <h3>Contact Me</h3>
           <p>
@@ -320,12 +335,15 @@
               maxlength="500"
               required
             ></textarea>
-            <button type="submit" class="see-project get-button">Get In Touch</button>
+            <button type="submit" class="see-project get-button">
+              Get In Touch
+            </button>
           </form>
           <hr />
         </div>
       </section>
     </div>
+
+    <script src="./index.js"></script>
   </body>
 </html>
-`
