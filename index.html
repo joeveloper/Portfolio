@@ -17,7 +17,7 @@
     <title>Porfolio</title>
   </head>
   <body>
-    <div class="wrapper">
+    <div class="wrapper" data-visible="false">
       <header id="header">
         <div class="logo blue-text"><a href="#">Joeveloper</a></div>
         <nav class="nav-bar">
@@ -368,8 +368,10 @@
             to help with it
           </p>
           <form action="https://formspree.io/f/myyawdlo" method="POST">
+            <div class="form-response"></div>
             <input
               class="input"
+              id="input-name"
               type="text"
               name="name"
               placeholder="Enter Name"
@@ -378,6 +380,7 @@
             />
             <input
               class="input"
+              id="input-email"
               type="email"
               name="email"
               placeholder="Enter Email"
@@ -386,7 +389,7 @@
             <textarea
               class="input"
               name="message"
-              id=""
+              id="input-message"
               cols="30"
               rows="10"
               placeholder="Enter message here"
@@ -406,8 +409,10 @@
         <div class="modal-layout"></div>
       </section> -->
       <div id="modal-main">
-        <div class="modal-layout">
-            <div class="modal-heading">
+        
+        <div class="modal-layout hidden">
+          <button rel="noopener noreferrer" href="javascript:void(0)" id="close-modal">&times;</button>
+            <!-- <div class="modal-heading">
                 <h2>Tonic</h2>
                 <ul class="modal-card-ul">
                     <li>CANOPY</li>
@@ -435,9 +440,9 @@
                         <button>Button1 <span><img src="./images/blue-github.png"></span></button>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
-    </div>
+      </div>
     </div>
 
     <script src="./index.js"></script>
