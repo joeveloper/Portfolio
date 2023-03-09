@@ -17,7 +17,7 @@
     <title>Porfolio</title>
   </head>
   <body>
-    <div class="wrapper">
+    <div class="wrapper" data-visible="false">
       <header id="header">
         <div class="logo blue-text"><a href="#">Joeveloper</a></div>
         <nav class="nav-bar">
@@ -60,9 +60,21 @@
           >&times;</a
         >
         <ul>
-          <li><a onclick="closeNav()" rel="noopener noreferrer" href="#portfolio">Portfolio</a></li>
-          <li><a onclick="closeNav()" rel="noopener noreferrer" href="#about">About</a></li>
-          <li><a onclick="closeNav()" rel="noopener noreferrer" href="#contact">Contact</a></li>
+          <li>
+            <a onclick="closeNav()" rel="noopener noreferrer" href="#portfolio"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a onclick="closeNav()" rel="noopener noreferrer" href="#about"
+              >About</a
+            >
+          </li>
+          <li>
+            <a onclick="closeNav()" rel="noopener noreferrer" href="#contact"
+              >Contact</a
+            >
+          </li>
         </ul>
       </div>
 
@@ -141,7 +153,7 @@
             <img alt="image" src="./images/snapshot1.png" />
           </div>
           <div class="textside">
-            <h2>Tonic</h2>
+            <h2 class="modal-header">Tonic</h2>
 
             <ul class="card-ul">
               <li>CANOPY</li>
@@ -159,7 +171,15 @@
               <li>css</li>
               <li>javascript</li>
             </ul>
-            <button type="button" class="see-project">See Project</button>
+            <button
+              type="button"
+              id="modal1"
+              class="see-project"
+              data-toggle="modal"
+              data-target="#myModal"
+            >
+              See Project
+            </button>
           </div>
         </article>
 
@@ -185,7 +205,9 @@
               <li>css</li>
               <li>javascript</li>
             </ul>
-            <button type="button" class="see-project">See Project</button>
+            <button type="button" id="modal2" class="see-project">
+              See Project
+            </button>
           </div>
           <div class="card">
             <img alt="image" src="./images/snapshot2.png" />
@@ -216,7 +238,9 @@
               <li>css</li>
               <li>javascript</li>
             </ul>
-            <button type="button" class="see-project">See Project</button>
+            <button type="button" id="modal3" class="see-project">
+              See Project
+            </button>
           </div>
         </article>
 
@@ -241,7 +265,9 @@
               <li>css</li>
               <li>javascript</li>
             </ul>
-            <button type="button" class="see-project">See Project</button>
+            <button type="button" id="modal4" class="see-project">
+              See Project
+            </button>
           </div>
           <div class="card">
             <img alt="image" src="./images/snapshot4.png" />
@@ -326,8 +352,16 @@
             <li><img alt="image" src="./images/html.png" /> HTML</li>
             <li><img alt="image" src="./images/css.png" /> CSS</li>
           </ul>
-          <h3 class="down under">Frameworks<span class="greycol"><img alt="image" src="./images/right.png" /></span></h3>
-          <h3 class="down under">Skills<span class="greycol"><img alt="image" src="./images/right.png" /></span></h3>
+          <h3 class="down under">
+            Frameworks<span class="greycol"
+              ><img alt="image" src="./images/right.png"
+            /></span>
+          </h3>
+          <h3 class="down under">
+            Skills<span class="greycol"
+              ><img alt="image" src="./images/right.png"
+            /></span>
+          </h3>
         </div>
       </section>
 
@@ -339,39 +373,53 @@
             feature that you need built or a project that needs coding. I’d love
             to help with it
           </p>
-          <form action="https://formspree.io/f/myyawdlo" method="POST">
+          <form
+            id="form"
+            action="https://formspree.io/f/myyawdlo"
+            method="POST"
+          >
             <input
               class="input"
+              id="input-name"
               type="text"
               name="name"
               placeholder="Enter Name"
-              required
               maxlength="30"
             />
             <input
               class="input"
+              id="input-email"
               type="email"
               name="email"
               placeholder="Enter Email"
-              required
             />
             <textarea
               class="input"
               name="message"
-              id=""
+              id="input-message"
               cols="30"
               rows="10"
               placeholder="Enter message here"
               maxlength="500"
-              required
             ></textarea>
-            <button type="submit" class="see-project get-button">
+            <div class="form-response"></div>
+            <button
+              type="submit"
+              id="submit-form"
+              class="see-project get-button"
+            >
               Get In Touch
             </button>
           </form>
           <hr />
         </div>
       </section>
+
+      <!-- MODAL SECTION -->
+
+      <div id="modal-main">
+        <div class="modal-layout hidden"></div>
+      </div>
     </div>
 
     <script src="./index.js"></script>
