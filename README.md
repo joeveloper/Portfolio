@@ -82,6 +82,13 @@ After you're finished please remove all the comments and instructions!
 </details>
 
 <details>
+  <summary>Programming Logic</summary>
+  <ul>
+    <li><a href="https://www.w3schools.com/javascript/">JavaScript</a></li>
+  </ul>
+</details>
+
+<details>
 <summary>Code formating</summary>
   <ul>
     <li><a href="https://github.com/microverseinc/linters-config">HTML & CSS Linters</a></li>
@@ -118,36 +125,23 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
-  cd my-folder
   git clone git@github.com:myaccount/my-project.git
+  cd portfolio
 ```
---->
 
 ### Install
 
 Install this project with:
 
 ```sh
-  open the index file with your browser either using the path or liveserver
+  npm i
 ```
-
--
 
 ### Run tests
 
@@ -156,8 +150,6 @@ To run tests, run the following command:
 ```sh
   configure the linters.yml file
 ```
-
--
 
 ### Deployment
 
