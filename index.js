@@ -93,7 +93,7 @@ const test = popupMenu.map((item) => `
         <ul class='modal-card-ul'>
             <li>${item.list1[0]}</li>
             <li><img alt='image' src='./images/counter.png' /></li>
-            <li>${item.list1[0]}</li>
+            <li>${item.list1[1]}</li>
             <li><img alt='image' src='./images/counter.png' /></li>
             <li>${item.list1[2]}</li>
           </ul>
