@@ -127,7 +127,7 @@ function dataVisible() {
 }
 
 function showModal(i) {
-  for (let index = 0; index < test.length; index++;) {
+  for (let index = 0; index < test.length; index += 1) {
     if (i === index) {
       modalBody.innerHTML = test[index];
     }
