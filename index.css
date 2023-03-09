@@ -29,10 +29,9 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* .wrapper[data-visible= "true"] > *:not(#modal-main) {
+.wrapper[data-visible="true"] > *:not(#modal-main) {
   filter: blur(1.5rem);
-} */
-
+}
 
 #header {
   /* position: sticky; */
@@ -486,8 +485,8 @@ li {
 .modal-skill-list ul {
   display: grid;
   grid-template-columns: min-content min-content min-content;
-    justify-content: start;
-      justify-items: start;
+  justify-content: start;
+  justify-items: start;
   gap: 10px;
   font-weight: 500;
   font-size: 12px;
@@ -541,11 +540,11 @@ li {
 
 #close-modal {
   position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 40px;
-    background-color: transparent;
-    border: none;
+  top: 20px;
+  right: 45px;
+  font-size: 40px;
+  background-color: transparent;
+  border: none;
   color: #000;
 }
 
@@ -951,8 +950,6 @@ li {
     color: #000;
   }
 
-  
-
   .hidden {
     visibility: hidden;
   }
@@ -981,5 +978,3 @@ li {
     display: none;
   }
 }
-
-
