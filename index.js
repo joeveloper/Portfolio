@@ -14,7 +14,7 @@ const inputName = ReadElement('#input-name');
 const inputEmail = ReadElement('#input-email');
 const inputMessage = ReadElement('#input-message');
 const formResponse = ReadElement('.form-response');
-const submitForm = ReadElement('#submit-form');
+const form = ReadElement('#form');
 
 const modal1 = ReadElement('#modal1');
 const modal2 = ReadElement('#modal2');
@@ -24,22 +24,20 @@ const modalBody = ReadElement('.modal-layout');
 const wrapper = document.querySelector('.wrapper');
 const wrapperVisible = wrapper.getAttribute('data-visible');
 
-function formValidator(e) {
+form.addEventListener('submit', (e) => {
   const emailValue = inputEmail.value;
-  let res;
+  const res = [];
   if (emailValue !== emailValue.toLowerCase() || emailValue.length === 0) {
-    res = 'Email required in lower case';
-    formResponse.innerHTML = res;
-  } else if (inputMessage.length === 0 || inputName.length === 0) {
-    res = 'Name and Message are required';
-    formResponse.innerHTML = res;
-  } else {
-    e.preventDefault();
+    res.push('Email required in lower case');
   }
-}
-
-const e = this;
-submitForm.addEventListener('click', () => formValidator(e));
+  if (inputMessage.value.length === 0 || inputName.value.length === 0) {
+    res.push('Name and message required');
+  }
+  if (res.length > 0) {
+    e.preventDefault();
+    formResponse.innerHTML = res.join(', ');
+  }
+});
 
 const popupMenu = [
   {

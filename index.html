@@ -373,7 +373,11 @@
             feature that you need built or a project that needs coding. I’d love
             to help with it
           </p>
-          <form action="https://formspree.io/f/myyawdlo" method="POST">
+          <form
+            id="form"
+            action="https://formspree.io/f/myyawdlo"
+            method="POST"
+          >
             <div class="form-response"></div>
             <input
               class="input"
@@ -381,7 +385,6 @@
               type="text"
               name="name"
               placeholder="Enter Name"
-              required
               maxlength="30"
             />
             <input
@@ -390,7 +393,6 @@
               type="email"
               name="email"
               placeholder="Enter Email"
-              required
             />
             <textarea
               class="input"
@@ -400,7 +402,6 @@
               rows="10"
               placeholder="Enter message here"
               maxlength="500"
-              required
             ></textarea>
             <button
               type="submit"
