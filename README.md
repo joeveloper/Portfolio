@@ -141,6 +141,14 @@ Install this project with:
   npm i
 ```
 
+### Usages
+
+Install this project with:
+
+```sh
+  Use with Live Server (localhost)
+```
+
 ### Run tests
 
 To run tests, run the following command:
