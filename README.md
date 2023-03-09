@@ -57,15 +57,11 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 JOEVELOPER's Portfolio <a name="Portfolio"></a>
 
-> Describe your project in 1 or 2 sentences.
-
 **[Contact-section]** This document is my professional portfolio, which showcases my skills by providing links to my Projects, and also give opportunity to connect to me via my socials.
 
 ## 🛠 Built With <a name="built-with">HTML & CSS</a>
 
 ### Tech Stack <a name="tech-stack">HTML & CSS</a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Markup</summary>
@@ -107,8 +103,6 @@ After you're finished please remove all the comments and instructions!
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://joeveloper.github.io/portfolio/)
 
@@ -171,8 +165,6 @@ Github pages
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Author1**
 
 - GitHub: [@joeveloper](https://github.com/joeveloper)
@@ -184,8 +176,6 @@ Github pages
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - The contacts sectiom
 - The about section
@@ -217,8 +207,6 @@ If you like this project, kindly reach out to me for contributions and recommend
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
 The author (myself) and also the authors of varous material that were helpful during this development
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -226,8 +214,6 @@ The author (myself) and also the authors of varous material that were helpful du
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **What does this project stand for?**
 
