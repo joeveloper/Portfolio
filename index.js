@@ -41,15 +41,13 @@ function formFunc() {
 
 const localFormObject = JSON.parse(localStorage.getItem('form'));
 
-function formPopulate() {
+window.onload = () => {
   if (localFormObject) {
     inputName.value = localFormObject.name;
     inputEmail.value = localFormObject.email;
     inputMessage.value = localFormObject.message;
   }
-}
-
-formPopulate();
+};
 
 form.addEventListener('submit', (e) => {
   const emailValue = inputEmail.value;
@@ -66,8 +64,6 @@ form.addEventListener('submit', (e) => {
   }
   formFunc();
 });
-
-window.addEventListener('submit', formFunc);
 
 const popupMenu = [
   {
