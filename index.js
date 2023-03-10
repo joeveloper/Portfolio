@@ -24,6 +24,16 @@ const modalBody = ReadElement('.modal-layout');
 const wrapper = document.querySelector('.wrapper');
 const wrapperVisible = wrapper.getAttribute('data-visible');
 
+const storeData = () => {
+  localStorage.setItem('name', inputName.value);
+  localStorage.setItem('email', inputEmail.value);
+  localStorage.setItem('message', inputMessage.value);
+};
+
+storeData();
+
+// form.addEventListener('submit', storeData);
+
 form.addEventListener('submit', (e) => {
   const emailValue = inputEmail.value;
   const res = [];
