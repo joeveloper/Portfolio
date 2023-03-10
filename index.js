@@ -86,7 +86,8 @@ const popupMenu = [
   },
 ];
 
-const test = popupMenu.map((item) => `
+const test = popupMenu.map(
+  (item) => `
    <button rel='noopener noreferrer' href='javascript:void(0)' id='close-modal'>&times;</button>
   <div class='modal-heading'>
         <h2>${item.title}</h2>
@@ -114,8 +115,9 @@ const test = popupMenu.map((item) => `
                 <button>Button1 <span><img src='./images/blue-github.png'></span></button>
             </div>
         </div>
-</div>`);
-
+</div>`,
+);
+// dataVisible function
 function dataVisible() {
   if (wrapperVisible === 'false') {
     wrapper.setAttribute('data-visible', true);
