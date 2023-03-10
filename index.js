@@ -128,7 +128,7 @@ const test = popupMenu.map(
                 <button>Button1 <span><img src='./images/blue-github.png'></span></button>
             </div>
         </div>
-</div>`,
+</div>`
 );
 // dataVisible function
 function dataVisible() {
