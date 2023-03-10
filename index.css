@@ -451,6 +451,7 @@ li {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  overflow-y: auto;
 }
 
 .modal-heading {
@@ -474,7 +475,7 @@ li {
   width: 100%;
   display: flex;
   justify-content: center;
-  height: 300px;
+  height: 400px;
 }
 
 .modal-body {
@@ -531,12 +532,12 @@ li {
 
 #close-modal {
   position: absolute;
-  top: 20px;
-  right: 45px;
+  top: 5px;
+  right: 15px;
   font-size: 40px;
   background-color: transparent;
   border: none;
-  color: #000;
+  color: #5e6c84;
 }
 
 /* MEDIA QUERIES */
