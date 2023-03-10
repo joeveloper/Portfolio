@@ -39,6 +39,8 @@ function formFunc() {
   localStorage.setItem('form', stringForm);
 }
 
+window.addEventListener('input', formFunc);
+
 const localFormObject = JSON.parse(localStorage.getItem('form'));
 
 window.onload = () => {
@@ -62,7 +64,6 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     formResponse.innerHTML = res.join(', ');
   }
-  formFunc();
 });
 
 const popupMenu = [
