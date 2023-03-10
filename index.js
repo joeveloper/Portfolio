@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-syntax */
 function openNav() {
   document.getElementById('mobile-menu').classList.add('visible');
 }
@@ -24,15 +25,13 @@ const modalBody = ReadElement('.modal-layout');
 const wrapper = document.querySelector('.wrapper');
 const wrapperVisible = wrapper.getAttribute('data-visible');
 
-const storeData = () => {
-  localStorage.setItem('name', inputName.value);
-  localStorage.setItem('email', inputEmail.value);
-  localStorage.setItem('message', inputMessage.value);
-};
-
-storeData();
-
-// form.addEventListener('submit', storeData);
+function formFunc() {
+  const fd = new FormData(form);
+  const obj = Object.fromEntries(fd);
+  const json = JSON.parse(obj);
+  localStorage.setItem('form', json);
+  console.log('Form added');
+}
 
 form.addEventListener('submit', (e) => {
   const emailValue = inputEmail.value;
@@ -46,8 +45,12 @@ form.addEventListener('submit', (e) => {
   if (res.length > 0) {
     e.preventDefault();
     formResponse.innerHTML = res.join(', ');
+  } else {
+    formFunc();
   }
 });
+
+window.addEventListener('submit', formFunc);
 
 const popupMenu = [
   {
