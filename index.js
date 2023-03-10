@@ -36,6 +36,7 @@ form.addEventListener('submit', (e) => {
   if (res.length > 0) {
     e.preventDefault();
     formResponse.innerHTML = res.join(', ');
+    // storeData();
   }
 });
 
