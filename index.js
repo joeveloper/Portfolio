@@ -25,13 +25,31 @@ const modalBody = ReadElement('.modal-layout');
 const wrapper = document.querySelector('.wrapper');
 const wrapperVisible = wrapper.getAttribute('data-visible');
 
+const formObject = {
+  name: '',
+  email: '',
+  message: '',
+};
+
 function formFunc() {
-  const fd = new FormData(form);
-  const obj = Object.fromEntries(fd);
-  const json = JSON.parse(obj);
-  localStorage.setItem('form', json);
-  console.log('Form added');
+  formObject.name = inputName.value;
+  formObject.email = inputEmail.value;
+  formObject.message = inputMessage.value;
+  const stringForm = JSON.stringify(formObject);
+  localStorage.setItem('form', stringForm);
 }
+
+const localFormObject = JSON.parse(localStorage.getItem('form'));
+
+function formPopulate() {
+  if (localFormObject) {
+    inputName.value = localFormObject.name;
+    inputEmail.value = localFormObject.email;
+    inputMessage.value = localFormObject.message;
+  }
+}
+
+formPopulate();
 
 form.addEventListener('submit', (e) => {
   const emailValue = inputEmail.value;
@@ -45,9 +63,8 @@ form.addEventListener('submit', (e) => {
   if (res.length > 0) {
     e.preventDefault();
     formResponse.innerHTML = res.join(', ');
-  } else {
-    formFunc();
   }
+  formFunc();
 });
 
 window.addEventListener('submit', formFunc);
@@ -128,7 +145,7 @@ const test = popupMenu.map(
                 <button>Button1 <span><img src='./images/blue-github.png'></span></button>
             </div>
         </div>
-</div>`
+</div>`,
 );
 // dataVisible function
 function dataVisible() {
