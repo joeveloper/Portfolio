@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-syntax */
 function openNav() {
   document.getElementById('mobile-menu').classList.add('visible');
 }
@@ -23,6 +24,32 @@ const modal4 = ReadElement('#modal4');
 const modalBody = ReadElement('.modal-layout');
 const wrapper = document.querySelector('.wrapper');
 const wrapperVisible = wrapper.getAttribute('data-visible');
+
+const formObject = {
+  name: '',
+  email: '',
+  message: '',
+};
+
+function formFunc() {
+  formObject.name = inputName.value;
+  formObject.email = inputEmail.value;
+  formObject.message = inputMessage.value;
+  const stringForm = JSON.stringify(formObject);
+  localStorage.setItem('form', stringForm);
+}
+
+window.addEventListener('input', formFunc);
+
+const localFormObject = JSON.parse(localStorage.getItem('form'));
+
+window.onload = () => {
+  if (localFormObject) {
+    inputName.value = localFormObject.name;
+    inputEmail.value = localFormObject.email;
+    inputMessage.value = localFormObject.message;
+  }
+};
 
 form.addEventListener('submit', (e) => {
   const emailValue = inputEmail.value;
